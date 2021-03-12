@@ -5,7 +5,7 @@
 #include "iostream"
 using namespace std;
 
-int main(){
+int Pr_1_9(){
     cout << "/*";
     cout << "*/";
 
