@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_1.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_Fib.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_Fib2.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_Fib3.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_Gcd.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_MaxSubArr.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_MaxSubArr2.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_MaxSubArr3.cpp
+
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_Pow.cpp
+iostream
+-
+
+D:/AppData/Learning/Coding/C_Cpp/PracticeBook/Pr_1_9.cpp
+iostream
+D:/AppData/Learning/Coding/C_Cpp/PracticeBook/iostream
+
+D:/AppData/Learning/Coding/C_Cpp/main.cpp
+iostream
+-
+Book_test/Ch2_1.cpp
+D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_1.cpp
+

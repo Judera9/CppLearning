@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/AppData/Learning/Coding/C_Cpp/PracticeBook/Pr_1_9.cpp
+iostream
+D:/AppData/Learning/Coding/C_Cpp/PracticeBook/iostream
+
