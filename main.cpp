@@ -1,9 +1,13 @@
 #include <iostream>
-#include "Book_test\Ch2_1.cpp"
-#include "PracticeBook/Pr_1_9.cpp"
+//#include "Book_test\Ch2_1.cpp"
+//#include "PracticeBook/Pr_1_9.cpp"
+
+//using namespace std;
+
+using std::endl;
+using std::cout;
 
 int main() {
-    int sum = ThreeTimesSum( 100 );
-    std::cout << sum << std::endl;
+    cout << "Game Over" << endl;
     return 0;
 }

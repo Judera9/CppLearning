@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named game_stats
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+game_stats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game_stats
+.PHONY : game_stats
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+game_stats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_stats.dir/build.make CMakeFiles/game_stats.dir/build
+.PHONY : game_stats/fast
 
-main.o: main.cpp.o
+GameLearning/CH1/game_stats.o: GameLearning/CH1/game_stats.cpp.o
 
-.PHONY : main.o
+.PHONY : GameLearning/CH1/game_stats.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+GameLearning/CH1/game_stats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_stats.dir/build.make CMakeFiles/game_stats.dir/GameLearning/CH1/game_stats.cpp.o
+.PHONY : GameLearning/CH1/game_stats.cpp.o
 
-main.i: main.cpp.i
+GameLearning/CH1/game_stats.i: GameLearning/CH1/game_stats.cpp.i
 
-.PHONY : main.i
+.PHONY : GameLearning/CH1/game_stats.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+GameLearning/CH1/game_stats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_stats.dir/build.make CMakeFiles/game_stats.dir/GameLearning/CH1/game_stats.cpp.i
+.PHONY : GameLearning/CH1/game_stats.cpp.i
 
-main.s: main.cpp.s
+GameLearning/CH1/game_stats.s: GameLearning/CH1/game_stats.cpp.s
 
-.PHONY : main.s
+.PHONY : GameLearning/CH1/game_stats.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+GameLearning/CH1/game_stats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_stats.dir/build.make CMakeFiles/game_stats.dir/GameLearning/CH1/game_stats.cpp.s
+.PHONY : GameLearning/CH1/game_stats.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... game_stats"
+	@echo "... GameLearning/CH1/game_stats.o"
+	@echo "... GameLearning/CH1/game_stats.i"
+	@echo "... GameLearning/CH1/game_stats.s"
 .PHONY : help
 
 

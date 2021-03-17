@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/GameLearning/CH1/game_stats.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
   "libmain.dll.a"
   "main.exe"

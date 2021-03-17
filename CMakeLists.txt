@@ -3,4 +3,4 @@ project(C_Cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(main main.cpp)
+add_executable(game_stats GameLearning/CH1/game_stats.cpp)
