@@ -4,10 +4,11 @@
 	<Project>
 		<Option title="C_Cpp"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="D:/AppData/Learning/Coding/CppLearning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -52,19 +53,43 @@
 			<Target title="main/fast">
 				<Option output="D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/AppData/Learning/Coding/CppLearning/cmake-build-debug"/>
+=======
+				<Option working_dir="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game_stats">
+				<Option output="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/game_stats.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug"/>
+>>>>>>> a579b54caf1404d64635e46b931437bd2deea2c0
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="nmake /NOLOGO /f D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\Makefile VERBOSE=1 main/fast"/>
 					<CompileFile command="nmake /NOLOGO /f D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -74,19 +99,30 @@
 			<Target title="Pr_1_9">
 				<Option output="D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/Pr_1_9.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/AppData/Learning/Coding/CppLearning/cmake-build-debug"/>
+=======
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 game_stats"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game_stats/fast">
+				<Option output="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/game_stats.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug"/>
+>>>>>>> a579b54caf1404d64635e46b931437bd2deea2c0
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="nmake /NOLOGO /f D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\Makefile VERBOSE=1 Pr_1_9"/>
 					<CompileFile command="nmake /NOLOGO /f D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -133,6 +169,29 @@
 			<Option target="Pr_1_9"/>
 		</Unit>
 		<Unit filename="D:/AppData/Learning/Coding/CppLearning/CMakeLists.txt">
+=======
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 game_stats/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/GameLearning/CH1/game_stats.cpp">
+			<Option target="game_stats"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/CMakeLists.txt">
+>>>>>>> a579b54caf1404d64635e46b931437bd2deea2c0
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
