@@ -52,10 +52,10 @@ RM = "D:\Applications\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\AppData\Learning\Coding\C_Cpp
+CMAKE_SOURCE_DIR = D:\AppData\Learning\Coding\CppLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\AppData\Learning\Coding\C_Cpp\cmake-build-debug
+CMAKE_BINARY_DIR = D:\AppData\Learning\Coding\CppLearning\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppData\Learning\Coding\C_Cpp\cmake-build-debug\CMakeFiles D:\AppData\Learning\Coding\C_Cpp\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\CMakeFiles D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppData\Learning\Coding\C_Cpp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\AppData\Learning\Coding\CppLearning\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -140,6 +140,33 @@ Pr_1_9\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pr_1_9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr_1_9.dir\build
 .PHONY : Pr_1_9\fast
 
+Book_test\main.obj: Book_test\main.cpp.obj
+
+.PHONY : Book_test\main.obj
+
+# target to build an object file
+Book_test\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Book_test\main.cpp.obj
+.PHONY : Book_test\main.cpp.obj
+
+Book_test\main.i: Book_test\main.cpp.i
+
+.PHONY : Book_test\main.i
+
+# target to preprocess a source file
+Book_test\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Book_test\main.cpp.i
+.PHONY : Book_test\main.cpp.i
+
+Book_test\main.s: Book_test\main.cpp.s
+
+.PHONY : Book_test\main.s
+
+# target to generate assembly for a file
+Book_test\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Book_test\main.cpp.s
+.PHONY : Book_test\main.cpp.s
+
 PracticeBook\Pr_1_9.obj: PracticeBook\Pr_1_9.cpp.obj
 
 .PHONY : PracticeBook\Pr_1_9.obj
@@ -167,33 +194,6 @@ PracticeBook\Pr_1_9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pr_1_9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr_1_9.dir\PracticeBook\Pr_1_9.cpp.s
 .PHONY : PracticeBook\Pr_1_9.cpp.s
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -204,12 +204,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Pr_1_9
 	@echo ... main
+	@echo ... Book_test/main.obj
+	@echo ... Book_test/main.i
+	@echo ... Book_test/main.s
 	@echo ... PracticeBook/Pr_1_9.obj
 	@echo ... PracticeBook/Pr_1_9.i
 	@echo ... PracticeBook/Pr_1_9.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

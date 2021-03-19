@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_1.cpp
-
-D:/AppData/Learning/Coding/C_Cpp/main.cpp
+D:/AppData/Learning/Coding/CppLearning/Book_test/Ch2_Pow.cpp
 iostream
 -
-Book_test/Ch2_1.cpp
-D:/AppData/Learning/Coding/C_Cpp/Book_test/Ch2_1.cpp
+
+D:/AppData/Learning/Coding/CppLearning/Book_test/main.cpp
+iostream
+-
+Ch2_Pow.cpp
+D:/AppData/Learning/Coding/CppLearning/Book_test/Ch2_Pow.cpp
+time.h
+D:/AppData/Learning/Coding/CppLearning/Book_test/time.h
 

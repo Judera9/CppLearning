@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/AppData/Learning/Coding/C_Cpp/PracticeBook/Pr_1_9.cpp" "D:/AppData/Learning/Coding/C_Cpp/cmake-build-debug/CMakeFiles/Pr_1_9.dir/PracticeBook/Pr_1_9.cpp.obj"
+  "D:/AppData/Learning/Coding/CppLearning/PracticeBook/Pr_1_9.cpp" "D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/Pr_1_9.dir/PracticeBook/Pr_1_9.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -1,4 +1,4 @@
-"D:\Applications\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\AppData\Learning\Coding\C_Cpp
+"D:\Applications\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\AppData\Learning\Coding\CppLearning
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/AppData/Learning/Coding/C_Cpp/cmake-build-debug
+-- Build files have been written to: D:/AppData/Learning/Coding/CppLearning/cmake-build-debug
