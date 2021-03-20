@@ -1,10 +1,3 @@
-<<<<<<< HEAD
 D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/main.dir
-D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/Pr_1_9.dir
+D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/menu_chooser.dir
 D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-=======
-/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/game_stats.dir
-/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/edit_cache.dir
->>>>>>> a579b54caf1404d64635e46b931437bd2deea2c0

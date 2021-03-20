@@ -4,13 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
   "D:/AppData/Learning/Coding/CppLearning/PracticeBook/Pr_1_9.cpp" "D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/Pr_1_9.dir/PracticeBook/Pr_1_9.cpp.obj"
-=======
-  "/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/PracticeBook/Pr_1_9.cpp" "/cygdrive/c/Users/Jude/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/Pr_1_9.dir/PracticeBook/Pr_1_9.cpp.o"
->>>>>>> a579b54caf1404d64635e46b931437bd2deea2c0
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

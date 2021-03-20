@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Pr_1_9.dir/PracticeBook/Pr_1_9.cpp.o  -o Pr_1_9.exe -Wl,--out-implib,libPr_1_9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
