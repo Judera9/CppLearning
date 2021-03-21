@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/AppData/Learning/Coding/CppLearning/GameLearning/CH1/lost_fortune.cpp
+iostream
+D:/AppData/Learning/Coding/CppLearning/GameLearning/CH1/iostream
+

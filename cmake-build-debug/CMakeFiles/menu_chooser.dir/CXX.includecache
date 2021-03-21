@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/AppData/Learning/Coding/CppLearning/GameLearning/CH2/menu_chooser.cpp
+iostream
+D:/AppData/Learning/Coding/CppLearning/GameLearning/CH2/iostream
+

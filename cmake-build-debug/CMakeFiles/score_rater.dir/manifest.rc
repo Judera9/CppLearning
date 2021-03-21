@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/AppData/Learning/Coding/CppLearning/cmake-build-debug/CMakeFiles/score_rater.dir/embed.manifest"
